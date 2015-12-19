@@ -1,0 +1,155 @@
+body 
+	{
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		min-width: 1000px;
+		height: 100%;
+		background: #D7D8D6;
+		text-align: center;
+	}
+	
+	.greenPanel 
+	{
+		width: 100%;
+		min-width: 1000px;
+		height: 300px;
+		box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+		float: top;
+		background: #009688;
+		position: absolute;
+		z-index: 0;
+	}
+	
+	.contentPanel 
+	{
+		width: 75%;
+		display: inline-block;
+		min-height: 200px;
+		position: relative;
+		z-index: 1;
+		box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+		top: 40px;
+		margin-bottom: 40px;
+		border-radius: 5px;
+	}
+	
+	.contentTop, .contentBottom 
+	{
+		float: top;
+		width: 100%;
+		padding: 100px;
+		box-sizing: border-box;
+	}
+	
+	.contentTop 
+	{
+		background: white;
+		height: 500px;
+	}
+	
+	.contentBottom 
+	{
+		background: #F6F8F8;
+		height: 500px;
+		box-sizing: border-box;
+		padding: 50px 80px 50px 80px;	
+	}
+	
+	.headerContainer 
+	{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.headerImage 
+	{
+		float: left;
+		background: white;
+		height: 300px;
+		width: 400px;
+		text-align:left;
+	}
+	
+	.headerText 
+	{
+		float: left;
+		width: -webkit-calc(100% - 400px);
+		height: 100%;
+		background: white;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-weight:200;
+		text-align:left;
+	}
+	
+	.featurePanel 
+	{
+		width: 450px;
+		height: 90px;
+		display: inline-block;
+		vertical-align: top;
+		background: #F6F8F8;
+		margin: 0px;
+	}
+	
+	.featureIcon 
+	{
+		height: 90px;
+		width: 90px;
+		float: left;
+		background:#F6F8F8;
+	}
+	
+	.imageIcon 
+	{ 
+		width: 80%;
+		margin: 10%;
+		height: 80%;
+		border-radius: 50%;
+		background: #43D854;
+	}
+	
+	.featureText 
+	{
+		width: 360px;
+		height: 100%;
+		float: left;
+		color-background: #F6F8F8;
+		color:black;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-weight:200;
+		font-size:18px;
+	}
+	
+	.aligner 
+	{
+		display: inline-block;
+		min-height: 10px;
+		width: 900px;
+		text-align: left;
+		background: #F6F8F8;
+		font-size: 0px;
+	}
+
+	h1 
+	{ 
+		font-weight:normal; 
+	}
+
+	p1
+	{
+		font-size: 140%;
+		color:grey;
+	}
+
+	p2
+	{
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		color:grey;
+		font-size:100%;
+	}
+
+	form
+	{
+		font-size:100%;
+	}
