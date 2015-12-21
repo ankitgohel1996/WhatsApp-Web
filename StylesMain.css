@@ -114,7 +114,7 @@
 		padding:1% 0% 1% 0%;
 	}
 
-	.featurePanel
+	.featurePanel,.featurePanelCurrent
 	{
 		width: 100%;
 		height: 70px;
@@ -123,23 +123,20 @@
 		background: white;
 		margin: 0px;
     	box-sizing: border-box;
-    	border-left:10px solid white;
+	}
+
+	.featurePanel
+	{
+		border-left:10px solid white;
     	padding-right:10px;
 	}
 
 	.featurePanelCurrent
 	{
-		width: 100%;
-		height: 70px;
-		display: inline-block;
-		vertical-align: top;
-		background: white;
-		margin: 0px;
-    	box-sizing: border-box;
     	border-left:10px solid #E9EBEB;
 	}
 
-	.featureIcon 
+	.featureIcon, .featureIconCurrent
 	{
 		height: 100%;
 		width: 70px;
@@ -156,12 +153,9 @@
 	.featureIconCurrent
 	{
 		background: #E9EBEB;
-		height: 100%;
-		width: 70px;
-		float: left;
 	}
 
-	.imageIcon 
+	.imageIcon, .imageIconCurrent
 	{ 
 		width: 85%;
 		margin: 7.5%;
@@ -178,13 +172,9 @@
 	.imageIconCurrent
 	{
 		background-color:#E9EBEB;
-		width: 85%;
-		margin: 7.5%;
-		height: 85%;
-		border-radius: 50%;
 	}
 
-	.featureText 
+	.featureText, .featureTextCurrent
 	{
 		width: -webkit-calc(100% - 70px);
 		height: 100%;
@@ -205,21 +195,7 @@
 
 	.featureTextCurrent
 	{
-		width: -webkit-calc(100% - 70px);
-		height: 100%;
-		box-sizing:border-box;
-		padding-top: 3%;
-		padding-right:2%;
-		padding-left:3%;
-		float: left;
 		background: #E9EBEB;
-		color:black;
-		border-bottom:1px solid;
-    	border-color:#D8D8D8;
-		text-align:left;
-		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-		font-weight:200;
-		font-size:17px;
 		border-right: 10px solid #EEEEEE;
 	}
 
